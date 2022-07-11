@@ -1,0 +1,14 @@
+.sale-banner{
+    height: 280px;
+    width: 100%;
+    opacity: 0.5;
+}
+.sale-btn{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px
+}
