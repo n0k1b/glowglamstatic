@@ -1,47 +1,114 @@
 @import url(//fonts.googleapis.com/css?family=Salsa);
-.sale-banner{
-    height: 280px;
-    width: 100%;
-    opacity: 0.3;
+.sale-banner {
+  height: 280px;
+  width: 100%;
+  opacity: 0.3;
 }
-.sale-btn{
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-    border-radius: 7px
+.sale-btn {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
 }
-.category-image{
-    height: 350px;
-    margin-bottom: 40px;
+.category-image {
+  height: 350px;
+  margin-bottom: 40px;
 }
-.category-text{
-    font-family: 'Salsaa',regular;
-    position: absolute;   
-    top: 146px;
-    width: 90%;
-    height: 82px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 2;
-    background:rgba(255, 255, 255, 0.58) ;
+.category-text {
+  font-family: "Salsaa", regular;
+  position: absolute;
+  top: 146px;
+  width: 90%;
+  height: 82px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 2;
+  background: rgba(255, 255, 255, 0.58);
+}
+.brand-image {
+  height: 655px;
+  margin-bottom: 40px;
+}
+.brand-image-logo {
+  position: absolute;
+  top: 496px;
+  width: 363px;
+  height: 127x;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 2;
+  background: rgba(255, 255, 255, 0.58);
+}
 
+/* PRODUCTS PAGE */
+
+.cover-photo-section {
+  background-color: red;
+  height: 300px;
+  position: relative;
 }
-.brand-image{
-    height: 655px;
-    margin-bottom: 40px;
+
+.cover-img {
+  height: 300px;
+  width: 100%;
 }
-.brand-image-logo{
-    position: absolute;   
-    top: 496px;
-    width: 363px;
-    height: 127x;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 2;
-    background:rgba(255, 255, 255, 0.58) ;
+
+.cover-text {
+  position: absolute;
+  left: 450px;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title-line {
+  width: 200px;
+}
+
+.cover-title {
+  font-family: "Rufina", serif;
+  color: #ffffff;
+  font-size: 48px;
+  margin: 0 20px;
+}
+
+.cover-detail-text {
+  width: 50vw;
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Rufina", serif;
+}
+
+.section1-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 13vw;
+  font-family: "Rufina", serif;
+}
+
+.section1-features {
+  display: flex;
+}
+
+.down-arrow {
+  width: 12px;
+  margin-left: 5px;
+  margin-top: -15px;
+  cursor: pointer;
 }
