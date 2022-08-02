@@ -1,3 +1,7 @@
+* {
+  font-family: "Rufina", serif;
+}
+
 @import url(//fonts.googleapis.com/css?family=Salsa);
 .sale-banner {
   height: 280px;
@@ -111,4 +115,76 @@
   margin-left: 5px;
   margin-top: -15px;
   cursor: pointer;
+}
+
+.section2 {
+  display: flex;
+}
+
+.first-section {
+  width: 20%;
+}
+
+.price-section,
+.dress-section,
+.catalogue-section {
+  margin-top: 50px;
+}
+
+.price,
+.dress,
+.catalogue {
+  display: flex;
+}
+
+.price p,
+.dress p,
+.catalogue p {
+  margin-left: 5px;
+}
+
+.pdi-item,
+.ddi-item,
+.cdi-item {
+  display: flex;
+}
+.pdi-item label,
+.ddi-item label,
+.cdi-item label {
+  margin-top: 9px;
+}
+
+.trc-title {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.is-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  margin: 15px 20px;
+}
+
+.is-1-image img {
+  width: 480px;
+}
+
+.price-font {
+  font-family: "Saira", sans-serif;
+}
+
+.container1 {
+  margin: 0 12vw;
+}
+
+.first-section {
+  margin-right: 10px;
+}
+
+.items-section {
+  display: flex;
+  justify-content: space-around;
 }
