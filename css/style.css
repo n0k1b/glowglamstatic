@@ -52,7 +52,6 @@
 /* PRODUCTS PAGE */
 
 .cover-photo-section {
-  background-color: red;
   height: 300px;
   position: relative;
 }
@@ -159,16 +158,45 @@
   margin-top: 30px;
 }
 
+.trc-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+}
+
 .is-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: fit-content;
   align-items: center;
-  margin: 15px 20px;
+  margin: 0px 20px;
 }
 
-.is-1-image img {
+.is-1-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-1-title {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.icons {
+  position: absolute;
+  bottom: 25px;
+}
+
+.icons img {
+  width: 50px;
+}
+
+.is-image {
   width: 480px;
 }
 
@@ -185,6 +213,55 @@
 }
 
 .items-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 50px;
+}
+
+.fs-title {
+  cursor: pointer;
+}
+
+/* FOOTER SECTION */
+
+.footer-container {
+  background-color: #fdfdfd;
+  margin-top: 100px;
+  height: 500px;
+}
+
+.footer-items {
+  height: 300px;
+  margin: 100px 12vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.glowglam-logo {
+  width: 344px;
+}
+
+.hr-short {
+  width: 172px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.footer-input {
+  width: 300px;
+}
+
+.footer-signup-btn {
+  margin: 20px 0px;
+  border: 2px solid grey;
+}
+
+.footer-signup-btn:hover {
+  background-color: rgb(80, 78, 78);
+  transition: 0.5s ease;
+  color: #ffffff;
+  border: 2px solid rgb(80, 78, 78);
 }
