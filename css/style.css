@@ -301,5 +301,91 @@
 }
 
 .dp-s1-details {
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+.dp-s1-details-title {
+  font-size: 25px;
+}
+
+.dp-s1-sizes {
+  display: flex;
+}
+
+.dp-s1-sizes p {
+  cursor: pointer;
+  margin-right: 20px;
+  border: 2px solid black;
+  padding: 2px 20px;
+  border-radius: 10px;
+}
+
+.dp-s1-size-chart {
+  display: flex;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.dp-s1-size-chart p {
+  text-decoration: underline;
+  margin-top: 13px;
+  margin-right: 10px;
+}
+
+.dp-s1-size-chart img {
+  width: 15px;
+}
+
+.dp-s1-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: 2px solid #5c5b5b;
+  width: fit-content;
+  height: 50px;
+  padding: 0px 20px;
+  color: #5c5b5b;
+}
+
+.dp-s1-quantity p {
+  padding: 0 10px;
+  margin-bottom: 0px;
+}
+
+.plus {
+  font-size: 35px;
+  margin-top: -3px;
+  cursor: pointer;
+}
+.minus {
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.dp-s1-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.dp-s1-btn button {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.dp-s1-ATC-btn {
+  border: 1px solid #5c5b5b;
+  width: 100%;
+  background-color: #5c5b5b;
+  color: white;
+  padding: 10px 0px;
+}
+
+.dp-s1-CWW-btn {
+  border: 1px solid #5c5b5b;
+  width: 100%;
+  padding: 10px 0px;
 }
