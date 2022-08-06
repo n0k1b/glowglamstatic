@@ -275,7 +275,7 @@
 }
 
 .dp-img-large img {
-  width: 400px;
+  width: 500px;
   margin-right: 30px;
 }
 
@@ -368,7 +368,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 .dp-s1-btn button {
@@ -388,4 +387,77 @@
   border: 1px solid #5c5b5b;
   width: 100%;
   padding: 10px 0px;
+}
+
+.dp-s1-socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.dp-s1-socials p {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.dp-s1-social-icons img {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.dAndR {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dAndR img {
+  width: 15px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.dp-section2-container,
+.dp-section3-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dp-section2-title,
+.dp-section3-title {
+  font-size: 30px;
+}
+
+.dp-s2-items,
+.dp-s3-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dp-s2-item,
+.dp-s3-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0pc 10px;
+  border: 1px solid #5c5b5b;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.dp-s2-img,
+.dp-s3-img {
+  width: 270px;
+}
+
+.arrow {
+  width: 15px;
+  height: fit-content;
+  cursor: pointer;
+  margin: 0px 20px;
 }
