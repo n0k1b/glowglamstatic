@@ -524,6 +524,10 @@
 
 .checkout-container {
   background-color: #fcfbfb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20vw;
 }
 
 .c-section1 {
@@ -531,6 +535,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 50px;
 }
 
 .c-login {
@@ -627,4 +632,101 @@
   height: 50px;
   background-color: #000000;
   color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.c-s2-your-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-left: 30px;
+  min-width: 400px;
+}
+
+.c-s2-title {
+  font-size: 30px;
+}
+
+.c-s2-order {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.c-price {
+  margin-left: 20px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.c-s2-order-details {
+  margin-left: 20px;
+}
+
+.c-id {
+  color: #737272;
+}
+
+/* ------------------LOGIN PAGE----------------------------------- */
+
+.login-container {
+  height: 800px;
+  position: relative;
+}
+
+.login-cover {
+  height: 100%;
+  width: 100%;
+}
+
+.login-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 10px solid #000000;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  width: 50%;
+  position: absolute;
+  top: 50px;
+  left: 25%;
+}
+
+.login-m-logo {
+  width: 300px;
+}
+
+.login-or {
+  display: flex;
+}
+
+.login-or-text {
+  margin: 0px 5px;
+}
+
+.login-hr {
+  width: 200px;
+}
+
+.login-form {
+  width: 400px;
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+
+.login-btn {
+  width: 400px;
+  min-width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
 }
