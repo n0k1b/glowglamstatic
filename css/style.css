@@ -730,3 +730,11 @@
   color: #ffffff;
   padding: 10px;
 }
+
+/* ----------------CREATE ACCOUNT PAGE---------------- */
+
+.caa-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
