@@ -303,6 +303,7 @@
   flex-direction: column;
   justify-content: center;
   margin-right: 50px;
+  cursor: pointer;
 }
 
 .dp-s1-title {
